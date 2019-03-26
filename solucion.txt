@@ -1,0 +1,19 @@
+categoria=2
+bonoXPresentismo=0
+bonoXResultado=0
+faltas=1
+def sueldoDePepe()=
+    sueldo= neto + bonoXPresentismo + bonoXResultado
+    print(sueldo)
+
+def neto(categoria)=
+    valor=0
+    if(categoria ==1):
+        valor= $1500
+    else(categoria ==2):
+        valor= $200
+    return(valor)
+
+def bonoPorResultado()=
+    porcentaje=10/
+    montoFijo= $800
